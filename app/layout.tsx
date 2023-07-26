@@ -5,6 +5,10 @@ import { Inter } from 'next/font/google';
 import './globals.css';
 
 import Feature from '@/components/Feature';
+import FormCheckbox from '@/components/Form/FormCheckbox';
+import FormInput from '@/components/Form/FormInput';
+import FormTextarea from '@/components/Form/FormTextarea';
+import FormWrapper from '@/components/Form/FormWrapper';
 import Grid from '@/components/Grid';
 import Page from '@/components/Page';
 import Teaser from '@/components/Teaser';
@@ -16,7 +20,11 @@ storyblokInit({
     feature: Feature,
     grid: Grid,
     page: Page,
-    teaser: Teaser
+    teaser: Teaser,
+    FormWrapper: FormWrapper,
+    FormInput: FormInput,
+    FormTextarea: FormTextarea,
+    FormCheckbox: FormCheckbox
   }
 });
 

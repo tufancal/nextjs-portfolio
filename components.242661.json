@@ -24,6 +24,148 @@
       "icon": null
     },
     {
+      "name": "FormCheckbox",
+      "display_name": null,
+      "created_at": "2023-07-26T21:38:17.076Z",
+      "updated_at": "2023-07-26T21:38:31.868Z",
+      "id": 4333673,
+      "schema": {
+        "name": {
+          "type": "text"
+        },
+        "label": {
+          "type": "text"
+        },
+        "required": {
+          "type": "boolean"
+        }
+      },
+      "image": null,
+      "preview_field": null,
+      "is_root": false,
+      "preview_tmpl": null,
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "FormCheckbox",
+      "component_group_uuid": "a9ffaeee-60bb-45cc-bbfa-4909412c5dd7",
+      "color": null,
+      "icon": null,
+      "component_group_name": "Form"
+    },
+    {
+      "name": "FormInput",
+      "display_name": null,
+      "created_at": "2023-07-26T21:35:15.720Z",
+      "updated_at": "2023-07-26T22:29:08.086Z",
+      "id": 4333667,
+      "schema": {
+        "name": {
+          "type": "text"
+        },
+        "placeholder": {
+          "type": "text"
+        },
+        "required": {
+          "type": "boolean"
+        },
+        "type": {
+          "type": "option",
+          "use_uuid": true,
+          "options": [
+            {
+              "_uid": "26c3083b-0bad-4fdd-baf2-c895469c58cd",
+              "name": "email",
+              "value": "email"
+            },
+            {
+              "_uid": "731119f7-b164-4287-840d-3ff258b307a3",
+              "value": "number",
+              "name": "number"
+            },
+            {
+              "_uid": "9fac46e9-4322-4ed0-a483-4ecfdb0da902",
+              "value": "text",
+              "name": "text"
+            }
+          ],
+          "exclude_empty_option": true
+        }
+      },
+      "image": null,
+      "preview_field": null,
+      "is_root": false,
+      "preview_tmpl": null,
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "FormInput",
+      "component_group_uuid": "a9ffaeee-60bb-45cc-bbfa-4909412c5dd7",
+      "color": null,
+      "icon": null,
+      "component_group_name": "Form"
+    },
+    {
+      "name": "FormTextarea",
+      "display_name": null,
+      "created_at": "2023-07-26T21:37:42.292Z",
+      "updated_at": "2023-07-26T21:38:07.925Z",
+      "id": 4333671,
+      "schema": {
+        "name": {
+          "type": "text"
+        },
+        "placeholder": {
+          "type": "text"
+        },
+        "required": {
+          "type": "boolean"
+        },
+        "rows": {
+          "type": "number"
+        }
+      },
+      "image": null,
+      "preview_field": null,
+      "is_root": false,
+      "preview_tmpl": null,
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "FormTextarea",
+      "component_group_uuid": "a9ffaeee-60bb-45cc-bbfa-4909412c5dd7",
+      "color": null,
+      "icon": null,
+      "component_group_name": "Form"
+    },
+    {
+      "name": "FormWrapper",
+      "display_name": null,
+      "created_at": "2023-07-26T21:33:58.164Z",
+      "updated_at": "2023-07-26T21:34:41.257Z",
+      "id": 4333665,
+      "schema": {
+        "forms": {
+          "type": "bloks"
+        },
+        "navigationSuccess": {
+          "type": "multilink"
+        }
+      },
+      "image": null,
+      "preview_field": null,
+      "is_root": false,
+      "preview_tmpl": null,
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "FormWrapper",
+      "component_group_uuid": "a9ffaeee-60bb-45cc-bbfa-4909412c5dd7",
+      "color": null,
+      "icon": null,
+      "component_group_name": "Form"
+    },
+    {
       "name": "grid",
       "display_name": null,
       "created_at": "2023-07-20T13:50:22.716Z",
