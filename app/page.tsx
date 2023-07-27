@@ -1,5 +1,15 @@
 import { getStoryblokApi, StoryblokComponent } from '@storyblok/react/rsc';
 
+async function fetchData() {
+	let sbParams = { 
+    version: 'draft' as const 
+  };
+
+	const storyblokApi = getStoryblokApi();
+	return storyblokApi.get(`cdn/stories/contact`, sbParams);
+}
+
+
 export default async function Home() {
 	const { data } = await fetchData();
 
@@ -8,11 +18,4 @@ export default async function Home() {
 			<StoryblokComponent blok={data.story.content} />
 		</div>
 	);
-}
-
-export async function fetchData() {
-	let sbParams = { version: 'draft' };
-
-	const storyblokApi = getStoryblokApi();
-	return storyblokApi.get(`cdn/stories/home`, sbParams);
 }
